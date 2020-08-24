@@ -1,0 +1,16 @@
+{
+	"name": "Counter",
+	"type": "parserhook",
+	"author": [ "Original code by Rinick", "Adapted to modern MediaWiki by Johannes Schultz" ],
+	"ExtensionMessagesFiles": {
+		"CounterMagic": "Counter.magic.php"
+	},
+	"AutoloadClasses": {
+		"Counter": "Counter.class.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "Counter::registerParser"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}
