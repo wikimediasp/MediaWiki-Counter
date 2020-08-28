@@ -31,14 +31,13 @@ class Counter
 
 		$str = trim($param1);
 		$keys = trim($param2);
-		$num = $param3 + 0;
+		$num = intval($param3);
 		if ($num == 0)
 		{
 			$idx = strpos($str, ' ');
 			if ($idx)
 			{
-				$num = substr($str, 0, $idx);
-				$num += 0;
+				$num = intval(substr($str, 0, $idx));
 				if ($num != 0)
 				{
 					$name = substr($str, $idx + 1);
