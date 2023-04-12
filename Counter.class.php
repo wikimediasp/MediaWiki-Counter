@@ -21,7 +21,7 @@ class Counter
 	var $counterDict = array();
 
 	public static function registerParser( &$parser ) {
-        $parser->setFunctionHook( '+', [$this, 'wfParserFunctionCounter_Render'] );
+        $parser->setFunctionHook( '+', (self, 'wfParserFunctionCounter_Render') );
         return true;
 	}
 	
