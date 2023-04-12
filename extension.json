@@ -2,6 +2,8 @@
 	"name": "Counter",
 	"type": "parserhook",
 	"author": [ "Original code by Rinick", "Adapted to modern MediaWiki by Johannes Schultz" ],
+	"url": "https://www.mediawiki.org/wiki/Extension:Counter",
+ 	"description": "Adds <code><nowiki>{{#+:}}</nowiki></code> and <code><nowiki>{{#+: ?}}</nowiki></code> parser function hooks to implement simple counters",
 	"ExtensionMessagesFiles": {
 		"CounterMagic": "Counter.magic.php"
 	},
