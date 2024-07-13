@@ -1,7 +1,7 @@
 {
 	"name": "Counter",
 	"type": "parserhook",
-	"author": [ "Original code by Rinick", "Adapted to modern MediaWiki by Johannes Schultz" ],
+	"author": [ "Original code by Rinick", "Adapted to modern MediaWiki by Johannes Schultz and David Hernandez" ],
 	"url": "https://www.mediawiki.org/wiki/Extension:Counter",
 	"version": "0.2.1",
 	"license-name": "MPL-2.0",
