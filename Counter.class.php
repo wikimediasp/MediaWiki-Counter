@@ -24,8 +24,8 @@ class Counter
         $parser->setFunctionHook( '+', [self::class, 'wfParserFunctionCounter_Render']);
         return true;
 	}
-	
-	function wfParserFunctionCounter_Render( &$parser, $param1 = '', $param2 = '', $param3 = '' )
+
+	public static function wfParserFunctionCounter_Render( &$parser, $param1 = '', $param2 = '', $param3 = '' )
 	{
 		global $counterDict;
 
